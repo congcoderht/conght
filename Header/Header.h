@@ -12,6 +12,8 @@ struct hocsinh {
 	string ID;
 	string ho;
 	string ten;
+	string Lop;
+	string Khoa;
 	string ngaysinh;
 	string IdXaHoi;
 	string gioitinh;
@@ -26,32 +28,42 @@ struct Giaovien {
 	string gioitinh;
 	string matkhau;
 };
-struct khoahoc {
-	int tinchi;
-	int soluong;
-	ngaythang batdau;
-	ngaythang ketthuc;
-	string id;
-	string tenkhoa;
-	string tenGiaovien;
+struct Lophoc {
 	string tenlop;
-	string ngay;
-	string buoi;
+	string tenkhoa;
+	int soluong;
 };
-int demHocsinh();
-int demgiaovien();
-void Docfilehs(hocsinh*& S, int& n);
-void Docfilegv(Giaovien*& T, int& m);
-bool checkPassIDhs(hocsinh* S, string id, string pass, int n, int& index);
-bool checkPassIDgv(Giaovien* T, string id, string pass, int m, int& index2);
-void xuat1hs(hocsinh S);
-void xuatHS(hocsinh* S, int n);
-void xuat1GV();
-void xuatGV(Giaovien* T, int m);
-void login(string& id, string& pass);
-void MenuHS(hocsinh* S, int& index, int n, string id);
-void MenuHeThong();
-void changepasshs(hocsinh*& S, int n, string id);
-void capnhatfilehs(hocsinh*& S, int n);
-void taonamhoc(int& newyear);
-void themlophocvaonam1();
+struct Khoahoc {
+	string ID;
+	string tenkhoa;
+	string tenlop;
+	string tenGV;
+	int soTC;
+	int SL;
+	string ngayhoc;
+	string giohoc;
+	int ngaybd;
+	int ngaykt;
+};
+struct namhoc {
+	Khoahoc* khoa;
+	Lophoc* lop;
+	int Nienkhoa;
+};
+int CountStudent();//dem so luong sinh vien
+int CountTeacher();//dem so luong giao vien
+void ReadStudent(hocsinh*& S, int& n);//Doc thong tin sinh vien ra tu file
+void ReadTeacher(Giaovien*& T, int& m);//Doc thong tin giao vien ra tu file
+bool CheckPassIDStudent(hocsinh* S, string id, string pass, int n, int& index);//kiem tra tk dang nhap co phai cua hs k
+bool CheckPassIDTeacher(Giaovien* T, string id, string pass, int m, int& index2);//kt xem co phai tk cua giao vien hay khong
+void Printf1Student(hocsinh S);//xuat thong tin cua 1 sinh vien
+void PrintfStudent(hocsinh* S, int n);//Xuat thong tin toan bo sinh vien
+void Printf1Teacher();//xuat thong tin cua 1 giao vien
+void PrintfTeacher(Giaovien* T, int m);//Xuat thong tin toan bo giao vien
+void login(string& id, string& pass);//nhap tai khoan
+void MenuStudent(hocsinh* S, int& index, int n, string id);//Menu rieng khi dang nhap tai khoan la hoc sinh
+void MenuSystem();//Menu cho he thong(tao lop,khoa hoc....
+void ChangepassStudent(hocsinh*& S, int n, string id);//Thay doi mat khau cua sinh vien
+void UpdatefileStudent(hocsinh*& S, int n);//cap nhat cac thong tin sinh vien trong file
+void CreateNewStudyYear(namhoc& newyear);//tao 1 nam hoc moi
+void AddFirstClass();//them 1 lop hoc vao nam hoc moi
