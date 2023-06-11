@@ -1,16 +1,321 @@
-ID,Ho,Ten,Gioi tinh,Ngay sinh,Id xa hoi,Mat khau
-2212001,Nguyen Van,An,Nam,12/4/2004,5345563,123456
-2212002,Tran Van,Khai,Nam,2/5/2004,3562156,123456
-2212003,Ho An,Nam,Nam,7/2/2004,3567732,123456
-2212004,Le Thuy,Duong,Nu,20/12/2004,2245678,123456
-2212005,Nguyen Thuy,Nhi,Nu,7/5/2004,3215678,123456
-2212006,Le Quang,An,Nam,4/12/2004,3521356,123456
-2212007,Truong,Bao,Nam,1/2/2004,5673214,123456
-2212008,Tran Gia,Nam,Nam,31/12/2004,2451135,123456
-2212009,Hoang,Cong,Nam,25/9/2004,4521145,123456
-2212010,Hung,Dung,Nam,2/7/2004,2532512,123456
-2212011,Do Thi,My,Nu,3/4/2004,2456123,123456
-2212017,Truong Tien,Anh,Nam,2/6/2004,6423214,123456
-2212040,Truong Viet,Cong,Nam,4/11/2003,2425621,123456
-2212046,Tran Xuan,Dang,Nam,12/6/2004,4564621,123456
-2212047,Nguyen Ngoc,Dang,Nam,12/8/2004,1432536,123456
+ID,Ho,Ten,Lop,Khoa,Gioi tinh,Ngay sinh,ID xa hoi
+22001@student.hcmus.edu.vn,Hoang Xuan,Duong,22CTT2,Cong Nghe Thong Tin,Nu,03/01/2004,465444201,22001
+22002@student.hcmus.edu.vn,Nguyen Xuan,Anh,22CTT2,Cong Nghe Thong Tin,Nam,02/11/2004,574330753,22002
+22003@student.hcmus.edu.vn,Ho Quoc,Giang,22CTT2,Cong Nghe Thong Tin,Nam,28/02/2004,415900917,22003
+22004@student.hcmus.edu.vn,Ho Quoc,Chi,22CTT2,Cong Nghe Thong Tin,Nam,26/01/2004,782445037,22004
+22005@student.hcmus.edu.vn,Truong Gia,Phuong,22CTT2,Cong Nghe Thong Tin,Nam,13/05/2004,611241379,22005
+22006@student.hcmus.edu.vn,Dinh Van,Oanh,22CTT2,Cong Nghe Thong Tin,Nam,10/02/2004,864197391,22006
+22007@student.hcmus.edu.vn,Truong Gia,Minh,22CTT2,Cong Nghe Thong Tin,Nu,21/03/2004,826510762,22007
+22008@student.hcmus.edu.vn,Hoang Xuan,Phuong,22CTT2,Cong Nghe Thong Tin,Nam,07/08/2004,613094192,22008
+22009@student.hcmus.edu.vn,Hoang Ngoc,Minh,22CTT2,Cong Nghe Thong Tin,Nam,06/11/2004,649997688,22009
+22010@student.hcmus.edu.vn,Phan Van,Cong,22CTT2,Cong Nghe Thong Tin,Nam,02/11/2004,759653829,22010
+22011@student.hcmus.edu.vn,Truong Gia,Quynh,22CTT2,Cong Nghe Thong Tin,Nam,25/04/2004,652391922,22011
+22012@student.hcmus.edu.vn,Phan Quoc,An,22CTT2,Cong Nghe Thong Tin,Nu,03/02/2004,184118799,22012
+22013@student.hcmus.edu.vn,Dang Ngoc,Phuong,22CTT2,Cong Nghe Thong Tin,Nu,13/12/2004,119771780,22013
+22014@student.hcmus.edu.vn,Ngo Quoc,Quynh,22CTT2,Cong Nghe Thong Tin,Nam,12/12/2004,737657299,22014
+22015@student.hcmus.edu.vn,Le Tuan,Hai,22CTT2,Cong Nghe Thong Tin,Nu,06/11/2004,244529916,22015
+22016@student.hcmus.edu.vn,Ho Tuan,An,22CTT2,Cong Nghe Thong Tin,Nu,23/11/2004,289300279,22016
+22017@student.hcmus.edu.vn,Ngo Thi,Oanh,22CTT2,Cong Nghe Thong Tin,Nam,02/05/2004,801300908,22017
+22018@student.hcmus.edu.vn,Truong Van,Danh,22CTT2,Cong Nghe Thong Tin,Nu,15/10/2004,269633275,22018
+22019@student.hcmus.edu.vn,Tran Van,Nam,22CTT2,Cong Nghe Thong Tin,Nu,14/02/2004,983636352,22019
+22020@student.hcmus.edu.vn,Nguyen Tuan,Nam,22CTT3,Cong Nghe Thong Tin,Nam,08/05/2004,372906556,22020
+22021@student.hcmus.edu.vn,Ngo Tuan,Oanh,22CTT3,Cong Nghe Thong Tin,Nam,18/10/2004,935591218,22021
+22022@student.hcmus.edu.vn,Tran Ngoc,Khanh,22CTT3,Cong Nghe Thong Tin,Nam,28/07/2004,633519627,22022
+22023@student.hcmus.edu.vn,Le Ngoc,Duc,22CTT3,Cong Nghe Thong Tin,Nu,01/04/2004,381951392,22023
+22024@student.hcmus.edu.vn,Dang Van,Binh,22CTT3,Cong Nghe Thong Tin,Nam,09/10/2004,285817998,22024
+22025@student.hcmus.edu.vn,Ho Van,Khanh,22CTT3,Cong Nghe Thong Tin,Nu,26/02/2004,553317231,22025
+22026@student.hcmus.edu.vn,Le Van,Chi,22CTT3,Cong Nghe Thong Tin,Nu,21/01/2004,678772336,22026
+22027@student.hcmus.edu.vn,Dinh Ngoc,Linh,22CTT3,Cong Nghe Thong Tin,Nam,19/09/2004,388630044,22027
+22028@student.hcmus.edu.vn,Pham Thi,Khanh,22CTT3,Cong Nghe Thong Tin,Nu,26/06/2004,585878781,22028
+22029@student.hcmus.edu.vn,Tran Gia,Cuong,22CTT3,Cong Nghe Thong Tin,Nu,20/06/2004,198457714,22029
+22030@student.hcmus.edu.vn,Ngo Xuan,Bao,22CTT3,Cong Nghe Thong Tin,Nam,21/07/2004,185282413,22030
+22031@student.hcmus.edu.vn,Phan Tuan,Giang,22CTT3,Cong Nghe Thong Tin,Nam,14/05/2004,444876583,22031
+22032@student.hcmus.edu.vn,Nguyen Van,An,22CTT3,Cong Nghe Thong Tin,Nam,09/11/2004,755186014,22032
+22033@student.hcmus.edu.vn,Phan Xuan,Khanh,22CTT3,Cong Nghe Thong Tin,Nam,09/03/2004,943922440,22033
+22034@student.hcmus.edu.vn,Truong Gia,Anh,22CTT3,Cong Nghe Thong Tin,Nam,13/10/2004,490042322,22034
+22035@student.hcmus.edu.vn,Nguyen Xuan,Bao,22CTT3,Cong Nghe Thong Tin,Nu,17/09/2004,500008239,22035
+22036@student.hcmus.edu.vn,Dang Xuan,Cuong,22CTT3,Cong Nghe Thong Tin,Nam,05/07/2004,341288845,22036
+22037@student.hcmus.edu.vn,Hoang Thi,Dung,22CTT3,Cong Nghe Thong Tin,Nu,23/09/2004,607188673,22037
+22038@student.hcmus.edu.vn,Dinh Gia,Xuan,22CTT3,Cong Nghe Thong Tin,Nam,27/06/2004,266464483,22038
+22039@student.hcmus.edu.vn,Le Van,Danh,22CTT3,Cong Nghe Thong Tin,Nu,04/09/2004,134670022,22039
+22040@student.hcmus.edu.vn,Ngo Van,Bao,22CTT4,Cong Nghe Thong Tin,Nu,05/01/2004,370860158,22040
+22041@student.hcmus.edu.vn,Ngo Tuan,Nhi,22CTT4,Cong Nghe Thong Tin,Nu,15/11/2004,310845518,22041
+22042@student.hcmus.edu.vn,Nguyen Tuan,Anh,22CTT4,Cong Nghe Thong Tin,Nu,15/02/2004,101137624,22042
+22043@student.hcmus.edu.vn,Dinh Xuan,An,22CTT4,Cong Nghe Thong Tin,Nam,24/09/2004,452189836,22043
+22044@student.hcmus.edu.vn,Pham Xuan,Quynh,22CTT4,Cong Nghe Thong Tin,Nam,23/03/2004,970374842,22044
+22045@student.hcmus.edu.vn,Hoang Xuan,Cong,22CTT4,Cong Nghe Thong Tin,Nu,10/03/2004,374483162,22045
+22046@student.hcmus.edu.vn,Dinh Thi,Chi,22CTT4,Cong Nghe Thong Tin,Nam,14/05/2004,663841831,22046
+22047@student.hcmus.edu.vn,Nguyen Thi,An,22CTT4,Cong Nghe Thong Tin,Nu,17/02/2004,766795106,22047
+22048@student.hcmus.edu.vn,Phan Van,Dung,22CTT4,Cong Nghe Thong Tin,Nu,21/03/2004,349004923,22048
+22049@student.hcmus.edu.vn,Nguyen Van,Minh,22CTT4,Cong Nghe Thong Tin,Nu,02/02/2004,248805937,22049
+22050@student.hcmus.edu.vn,Phan Quoc,Cuong,22CTT4,Cong Nghe Thong Tin,Nu,28/08/2004,752365811,22050
+22051@student.hcmus.edu.vn,Phan Ngoc,Hai,22CTT4,Cong Nghe Thong Tin,Nu,06/07/2004,116340518,22051
+22052@student.hcmus.edu.vn,Ho Thi,Cong,22CTT4,Cong Nghe Thong Tin,Nam,04/05/2004,918620967,22052
+22053@student.hcmus.edu.vn,Ngo Ngoc,Duc,22CTT4,Cong Nghe Thong Tin,Nam,25/11/2004,782573796,22053
+22054@student.hcmus.edu.vn,Nguyen Thi,Duong,22CTT4,Cong Nghe Thong Tin,Nam,16/04/2004,594922626,22054
+22055@student.hcmus.edu.vn,Tran Gia,Anh,22CTT4,Cong Nghe Thong Tin,Nam,12/09/2004,334907644,22055
+22056@student.hcmus.edu.vn,Dang Xuan,Nhi,22CTT4,Cong Nghe Thong Tin,Nam,28/06/2004,585381528,22056
+22057@student.hcmus.edu.vn,Dinh Van,Cuong,22CTT4,Cong Nghe Thong Tin,Nu,28/05/2004,806379891,22057
+22058@student.hcmus.edu.vn,Tran Gia,Nam,22CTT4,Cong Nghe Thong Tin,Nam,10/06/2004,849981796,22058
+22059@student.hcmus.edu.vn,Ho Xuan,Anh,22CTT4,Cong Nghe Thong Tin,Nam,03/12/2004,227456633,22059
+22060@student.hcmus.edu.vn,Nguyen Thi,Bao,22KDL,Khoa Hoc Du Lieu,Nu,04/05/2004,692532751,22060
+22061@student.hcmus.edu.vn,Nguyen Quoc,Chi,22KDL,Khoa Hoc Du Lieu,Nam,03/12/2004,210926243,22061
+22062@student.hcmus.edu.vn,Le Xuan,Bao,22KDL,Khoa Hoc Du Lieu,Nam,25/02/2004,168014647,22062
+22063@student.hcmus.edu.vn,Phan Van,Duc,22KDL,Khoa Hoc Du Lieu,Nam,02/11/2004,356189484,22063
+22064@student.hcmus.edu.vn,Ngo Tuan,Xuan,22KDL,Khoa Hoc Du Lieu,Nam,09/07/2004,186407318,22064
+22065@student.hcmus.edu.vn,Tran Van,Giang,22KDL,Khoa Hoc Du Lieu,Nu,26/07/2004,199536639,22065
+22066@student.hcmus.edu.vn,Le Van,Hai,22KDL,Khoa Hoc Du Lieu,Nu,23/07/2004,232148542,22066
+22067@student.hcmus.edu.vn,Hoang Gia,Phuong,22KDL,Khoa Hoc Du Lieu,Nam,17/08/2004,485418696,22067
+22068@student.hcmus.edu.vn,Phan Quoc,Minh,22KDL,Khoa Hoc Du Lieu,Nu,13/01/2004,549334217,22068
+22069@student.hcmus.edu.vn,Pham Thi,Oanh,22KDL,Khoa Hoc Du Lieu,Nu,01/11/2004,749363746,22069
+22070@student.hcmus.edu.vn,Tran Tuan,Dat,22KDL,Khoa Hoc Du Lieu,Nu,18/06/2004,424421218,22070
+22071@student.hcmus.edu.vn,Dang Thi,Quoc,22KDL,Khoa Hoc Du Lieu,Nam,26/06/2004,425504999,22071
+22072@student.hcmus.edu.vn,Truong Tuan,An,22KDL,Khoa Hoc Du Lieu,Nam,14/07/2004,448961199,22072
+22073@student.hcmus.edu.vn,Hoang Quoc,Cong,22KDL,Khoa Hoc Du Lieu,Nu,22/12/2004,955128828,22073
+22074@student.hcmus.edu.vn,Le Quoc,Dung,22KDL,Khoa Hoc Du Lieu,Nu,19/01/2004,694827420,22074
+22075@student.hcmus.edu.vn,Phan Xuan,Bao,22KDL,Khoa Hoc Du Lieu,Nu,05/11/2004,110361655,22075
+22076@student.hcmus.edu.vn,Ho Gia,Quoc,22KDL,Khoa Hoc Du Lieu,Nam,11/03/2004,389285654,22076
+22077@student.hcmus.edu.vn,Phan Ngoc,Phuong,22KDL,Khoa Hoc Du Lieu,Nu,15/09/2004,862693757,22077
+22078@student.hcmus.edu.vn,Tran Gia,Khanh,22KDL,Khoa Hoc Du Lieu,Nam,15/06/2004,153673689,22078
+22079@student.hcmus.edu.vn,Dinh Quoc,Nam,22KDL,Khoa Hoc Du Lieu,Nam,03/12/2004,961679441,22079
+22080@student.hcmus.edu.vn,Nguyen Gia,Cong,22TT1,Toan Tin,Nam,18/03/2004,634285944,22080
+22081@student.hcmus.edu.vn,Phan Van,Dat,22TT1,Toan Tin,Nu,14/07/2004,256353952,22081
+22082@student.hcmus.edu.vn,Le Van,Anh,22TT1,Toan Tin,Nu,01/06/2004,114545288,22082
+22083@student.hcmus.edu.vn,Le Quoc,Nhi,22TT1,Toan Tin,Nu,02/04/2004,756897875,22083
+22084@student.hcmus.edu.vn,Phan Van,Quynh,22TT1,Toan Tin,Nam,02/02/2004,982231132,22084
+22085@student.hcmus.edu.vn,Nguyen Xuan,Minh,22TT1,Toan Tin,Nu,01/07/2004,362296251,22085
+22086@student.hcmus.edu.vn,Dinh Xuan,Duc,22TT1,Toan Tin,Nu,21/08/2004,208794350,22086
+22087@student.hcmus.edu.vn,Le Gia,Linh,22TT1,Toan Tin,Nu,23/06/2004,771865423,22087
+22088@student.hcmus.edu.vn,Nguyen Gia,Duong,22TT1,Toan Tin,Nam,16/09/2004,611977649,22088
+22089@student.hcmus.edu.vn,Phan Xuan,Nam,22TT1,Toan Tin,Nu,09/07/2004,555155975,22089
+22090@student.hcmus.edu.vn,Phan Xuan,Bao,22TT1,Toan Tin,Nam,08/10/2004,172835999,22090
+22091@student.hcmus.edu.vn,Truong Thi,Minh,22TT1,Toan Tin,Nu,21/11/2004,931510005,22091
+22092@student.hcmus.edu.vn,Le Tuan,Oanh,22TT1,Toan Tin,Nu,18/05/2004,185028086,22092
+22093@student.hcmus.edu.vn,Ngo Quoc,Danh,22TT1,Toan Tin,Nam,07/08/2004,995087296,22093
+22094@student.hcmus.edu.vn,Dinh Xuan,Khanh,22TT1,Toan Tin,Nu,08/05/2004,238365625,22094
+22095@student.hcmus.edu.vn,Ho Van,Cuong,22TT1,Toan Tin,Nam,16/10/2004,528194976,22095
+22096@student.hcmus.edu.vn,Ngo Van,Huong,22TT1,Toan Tin,Nu,27/10/2004,904592083,22096
+22097@student.hcmus.edu.vn,Ngo Van,Chi,22TT1,Toan Tin,Nu,14/10/2004,734088432,22097
+22098@student.hcmus.edu.vn,Phan Van,Xuan,22TT1,Toan Tin,Nam,24/09/2004,446413978,22098
+22099@student.hcmus.edu.vn,Ngo Tuan,Oanh,22TT1,Toan Tin,Nu,08/10/2004,529691604,22099
+22100@student.hcmus.edu.vn,Ho Van,Cuong,22TT2,Toan Tin,Nam,01/04/2004,557160666,22100
+22101@student.hcmus.edu.vn,Pham Van,Dat,22TT2,Toan Tin,Nam,16/07/2004,315100386,22101
+22102@student.hcmus.edu.vn,Ngo Quoc,Duong,22TT2,Toan Tin,Nam,21/05/2004,737949905,22102
+22103@student.hcmus.edu.vn,Ngo Thi,Oanh,22TT2,Toan Tin,Nam,28/10/2004,881208187,22103
+22104@student.hcmus.edu.vn,Dinh Thi,Oanh,22TT2,Toan Tin,Nu,24/05/2004,588950025,22104
+22105@student.hcmus.edu.vn,Hoang Tuan,Binh,22TT2,Toan Tin,Nu,14/01/2004,102967843,22105
+22106@student.hcmus.edu.vn,Dang Xuan,An,22TT2,Toan Tin,Nam,21/08/2004,893559304,22106
+22107@student.hcmus.edu.vn,Tran Tuan,Hung,22TT2,Toan Tin,Nam,07/02/2004,898187318,22107
+22108@student.hcmus.edu.vn,Tran Quoc,Duong,22TT2,Toan Tin,Nam,06/12/2004,908996179,22108
+22109@student.hcmus.edu.vn,Nguyen Thi,An,22TT2,Toan Tin,Nu,18/05/2004,163234617,22109
+22110@student.hcmus.edu.vn,Ho Quoc,Giang,22TT2,Toan Tin,Nam,27/05/2004,548136151,22110
+22111@student.hcmus.edu.vn,Nguyen Tuan,Binh,22TT2,Toan Tin,Nu,19/07/2004,244699083,22111
+22112@student.hcmus.edu.vn,Phan Ngoc,Cuong,22TT2,Toan Tin,Nam,03/02/2004,659827134,22112
+22113@student.hcmus.edu.vn,Nguyen Thi,Hai,22TT2,Toan Tin,Nu,12/09/2004,870710828,22113
+22114@student.hcmus.edu.vn,Ngo Gia,Linh,22TT2,Toan Tin,Nam,18/01/2004,485139446,22114
+22115@student.hcmus.edu.vn,Truong Thi,Nhi,22TT2,Toan Tin,Nu,27/08/2004,507332529,22115
+22116@student.hcmus.edu.vn,Nguyen Tuan,An,22TT2,Toan Tin,Nu,07/10/2004,491676866,22116
+22117@student.hcmus.edu.vn,Ho Thi,Dung,22TT2,Toan Tin,Nam,08/10/2004,794280644,22117
+22118@student.hcmus.edu.vn,Nguyen Ngoc,Duc,22TT2,Toan Tin,Nu,03/03/2004,440559383,22118
+22119@student.hcmus.edu.vn,Dang Xuan,Khanh,22TT2,Toan Tin,Nam,18/10/2004,683525532,22119
+22120@student.hcmus.edu.vn,Tran Van,Bao,22SH1,Sinh Hoc,Nu,12/06/2004,376061494,22120
+22121@student.hcmus.edu.vn,Nguyen Van,Duong,22SH1,Sinh Hoc,Nu,26/06/2004,805178900,22121
+22122@student.hcmus.edu.vn,Phan Ngoc,Bao,22SH1,Sinh Hoc,Nu,26/06/2004,252827656,22122
+22123@student.hcmus.edu.vn,Le Tuan,Cuong,22SH1,Sinh Hoc,Nam,03/01/2004,153273964,22123
+22124@student.hcmus.edu.vn,Truong Xuan,Binh,22SH1,Sinh Hoc,Nu,05/01/2004,814908803,22124
+22125@student.hcmus.edu.vn,Hoang Gia,Dat,22SH1,Sinh Hoc,Nu,11/09/2004,391000844,22125
+22126@student.hcmus.edu.vn,Dang Gia,Huong,22SH1,Sinh Hoc,Nam,15/11/2004,624714924,22126
+22127@student.hcmus.edu.vn,Ho Van,Nhi,22SH1,Sinh Hoc,Nu,28/06/2004,677198282,22127
+22128@student.hcmus.edu.vn,Truong Thi,Anh,22SH1,Sinh Hoc,Nam,03/06/2004,438436902,22128
+22129@student.hcmus.edu.vn,Tran Gia,Khanh,22SH1,Sinh Hoc,Nu,17/01/2004,351229197,22129
+22130@student.hcmus.edu.vn,Dinh Tuan,Khanh,22SH1,Sinh Hoc,Nam,28/05/2004,478621153,22130
+22131@student.hcmus.edu.vn,Dinh Thi,Xuan,22SH1,Sinh Hoc,Nu,05/04/2004,622092387,22131
+22132@student.hcmus.edu.vn,Phan Ngoc,Duc,22SH1,Sinh Hoc,Nam,17/04/2004,585033328,22132
+22133@student.hcmus.edu.vn,Hoang Ngoc,Linh,22SH1,Sinh Hoc,Nam,22/08/2004,678374036,22133
+22134@student.hcmus.edu.vn,Hoang Van,Minh,22SH1,Sinh Hoc,Nam,05/01/2004,856765569,22134
+22135@student.hcmus.edu.vn,Ho Van,Quynh,22SH1,Sinh Hoc,Nam,17/08/2004,150720046,22135
+22136@student.hcmus.edu.vn,Ho Van,Nam,22SH1,Sinh Hoc,Nam,28/05/2004,886147092,22136
+22137@student.hcmus.edu.vn,Nguyen Thi,Quoc,22SH1,Sinh Hoc,Nam,09/10/2004,207264261,22137
+22138@student.hcmus.edu.vn,Ho Xuan,Nam,22SH1,Sinh Hoc,Nu,12/05/2004,889020448,22138
+22139@student.hcmus.edu.vn,Pham Quoc,Hai,22SH1,Sinh Hoc,Nu,09/01/2004,660268396,22139
+22140@student.hcmus.edu.vn,Pham Xuan,Anh,22SH2,Sinh Hoc,Nam,04/09/2004,873327504,22140
+22141@student.hcmus.edu.vn,Tran Tuan,Anh,22SH2,Sinh Hoc,Nam,25/11/2004,872522394,22141
+22142@student.hcmus.edu.vn,Le Ngoc,Hung,22SH2,Sinh Hoc,Nam,18/11/2004,113013966,22142
+22143@student.hcmus.edu.vn,Pham Quoc,Hai,22SH2,Sinh Hoc,Nam,16/06/2004,643117640,22143
+22144@student.hcmus.edu.vn,Le Van,Giang,22SH2,Sinh Hoc,Nam,02/04/2004,675328436,22144
+22145@student.hcmus.edu.vn,Tran Ngoc,Hai,22SH2,Sinh Hoc,Nam,19/10/2004,598974408,22145
+22146@student.hcmus.edu.vn,Nguyen Gia,Nam,22SH2,Sinh Hoc,Nu,17/02/2004,338338625,22146
+22147@student.hcmus.edu.vn,Ho Gia,Cong,22SH2,Sinh Hoc,Nu,02/04/2004,849984558,22147
+22148@student.hcmus.edu.vn,Nguyen Xuan,Huong,22SH2,Sinh Hoc,Nu,25/06/2004,140716969,22148
+22149@student.hcmus.edu.vn,Tran Thi,Xuan,22SH2,Sinh Hoc,Nu,23/04/2004,673453323,22149
+22150@student.hcmus.edu.vn,Ngo Van,Giang,22SH2,Sinh Hoc,Nu,24/09/2004,970785521,22150
+22151@student.hcmus.edu.vn,Nguyen Gia,Nam,22SH2,Sinh Hoc,Nam,19/02/2004,319350561,22151
+22152@student.hcmus.edu.vn,Le Quoc,Hai,22SH2,Sinh Hoc,Nam,16/02/2004,829163427,22152
+22153@student.hcmus.edu.vn,Phan Van,Phuong,22SH2,Sinh Hoc,Nu,14/07/2004,980271523,22153
+22154@student.hcmus.edu.vn,Le Ngoc,Phuong,22SH2,Sinh Hoc,Nu,12/08/2004,385959567,22154
+22155@student.hcmus.edu.vn,Truong Thi,Phuong,22SH2,Sinh Hoc,Nam,07/05/2004,282777448,22155
+22156@student.hcmus.edu.vn,Tran Van,Quoc,22SH2,Sinh Hoc,Nu,03/02/2004,668797212,22156
+22157@student.hcmus.edu.vn,Ho Gia,Danh,22SH2,Sinh Hoc,Nu,08/06/2004,131067752,22157
+22158@student.hcmus.edu.vn,Dinh Van,Oanh,22SH2,Sinh Hoc,Nu,08/12/2004,458388111,22158
+22159@student.hcmus.edu.vn,Le Van,Cong,22SH2,Sinh Hoc,Nu,02/08/2004,312565612,22159
+22160@student.hcmus.edu.vn,Ngo Tuan,Duong,22DTVT1,Dien Tu Vien Thong,Nu,07/07/2004,862800056,22160
+22161@student.hcmus.edu.vn,Dinh Tuan,Huong,22DTVT1,Dien Tu Vien Thong,Nam,03/05/2004,790327479,22161
+22162@student.hcmus.edu.vn,Hoang Ngoc,Bao,22DTVT1,Dien Tu Vien Thong,Nu,26/05/2004,720402461,22162
+22163@student.hcmus.edu.vn,Le Ngoc,An,22DTVT1,Dien Tu Vien Thong,Nam,25/04/2004,834724514,22163
+22164@student.hcmus.edu.vn,Dinh Ngoc,Anh,22DTVT1,Dien Tu Vien Thong,Nam,02/05/2004,224914314,22164
+22165@student.hcmus.edu.vn,Le Ngoc,Minh,22DTVT1,Dien Tu Vien Thong,Nu,03/03/2004,194576434,22165
+22166@student.hcmus.edu.vn,Hoang Tuan,Danh,22DTVT1,Dien Tu Vien Thong,Nu,07/04/2004,522883763,22166
+22167@student.hcmus.edu.vn,Dinh Quoc,Nam,22DTVT1,Dien Tu Vien Thong,Nam,14/12/2004,293852732,22167
+22168@student.hcmus.edu.vn,Hoang Thi,Giang,22DTVT1,Dien Tu Vien Thong,Nam,12/07/2004,598588776,22168
+22169@student.hcmus.edu.vn,Tran Van,Cong,22DTVT1,Dien Tu Vien Thong,Nu,13/09/2004,510128015,22169
+22170@student.hcmus.edu.vn,Ngo Gia,Xuan,22DTVT1,Dien Tu Vien Thong,Nam,13/02/2004,288278004,22170
+22171@student.hcmus.edu.vn,Hoang Van,Dung,22DTVT1,Dien Tu Vien Thong,Nu,26/12/2004,690179562,22171
+22172@student.hcmus.edu.vn,Hoang Ngoc,Bao,22DTVT1,Dien Tu Vien Thong,Nam,26/06/2004,470069044,22172
+22173@student.hcmus.edu.vn,Hoang Quoc,Nhi,22DTVT1,Dien Tu Vien Thong,Nam,09/08/2004,993617027,22173
+22174@student.hcmus.edu.vn,Truong Gia,Nam,22DTVT1,Dien Tu Vien Thong,Nam,10/06/2004,895812280,22174
+22175@student.hcmus.edu.vn,Dinh Quoc,Nhi,22DTVT1,Dien Tu Vien Thong,Nam,21/03/2004,174209136,22175
+22176@student.hcmus.edu.vn,Dinh Gia,Nam,22DTVT1,Dien Tu Vien Thong,Nu,14/03/2004,456516059,22176
+22177@student.hcmus.edu.vn,Le Xuan,Duc,22DTVT1,Dien Tu Vien Thong,Nam,15/09/2004,887346347,22177
+22178@student.hcmus.edu.vn,Ho Ngoc,Binh,22DTVT1,Dien Tu Vien Thong,Nu,02/05/2004,947254693,22178
+22179@student.hcmus.edu.vn,Ngo Gia,Minh,22DTVT1,Dien Tu Vien Thong,Nu,18/03/2004,228341672,22179
+22180@student.hcmus.edu.vn,Truong Quoc,Quynh,22DTVT2,Dien Tu Vien Thon,Nu,22/01/2004,325160175,22180
+22181@student.hcmus.edu.vn,Tran Tuan,Dat,22DTVT2,Dien Tu Vien Thon,Nu,18/04/2004,955751768,22181
+22182@student.hcmus.edu.vn,Truong Xuan,Cuong,22DTVT2,Dien Tu Vien Thon,Nam,07/01/2004,459074807,22182
+22183@student.hcmus.edu.vn,Dang Thi,Binh,22DTVT2,Dien Tu Vien Thon,Nu,27/02/2004,241291478,22183
+22184@student.hcmus.edu.vn,Dang Ngoc,Oanh,22DTVT2,Dien Tu Vien Thon,Nu,20/02/2004,964334194,22184
+22185@student.hcmus.edu.vn,Dang Thi,Quynh,22DTVT2,Dien Tu Vien Thon,Nam,01/05/2004,777815498,22185
+22186@student.hcmus.edu.vn,Nguyen Thi,Bao,22DTVT2,Dien Tu Vien Thon,Nu,19/09/2004,830876735,22186
+22187@student.hcmus.edu.vn,Pham Ngoc,Nam,22DTVT2,Dien Tu Vien Thon,Nam,23/01/2004,812629151,22187
+22188@student.hcmus.edu.vn,Dinh Gia,Binh,22DTVT2,Dien Tu Vien Thon,Nu,02/04/2004,556752054,22188
+22189@student.hcmus.edu.vn,Hoang Quoc,Nhi,22DTVT2,Dien Tu Vien Thon,Nam,10/01/2004,579746628,22189
+22190@student.hcmus.edu.vn,Tran Thi,Duc,22DTVT2,Dien Tu Vien Thon,Nu,23/10/2004,738172846,22190
+22191@student.hcmus.edu.vn,Nguyen Gia,Binh,22DTVT2,Dien Tu Vien Thon,Nam,19/03/2004,305093667,22191
+22192@student.hcmus.edu.vn,Phan Thi,Linh,22DTVT2,Dien Tu Vien Thon,Nu,20/06/2004,508052504,22192
+22193@student.hcmus.edu.vn,Ho Gia,Nam,22DTVT2,Dien Tu Vien Thon,Nu,16/02/2004,146047615,22193
+22194@student.hcmus.edu.vn,Nguyen Ngoc,Bao,22DTVT2,Dien Tu Vien Thon,Nu,02/04/2004,714627293,22194
+22195@student.hcmus.edu.vn,Phan Xuan,Minh,22DTVT2,Dien Tu Vien Thon,Nu,23/08/2004,311617502,22195
+22196@student.hcmus.edu.vn,Pham Gia,Nam,22DTVT2,Dien Tu Vien Thon,Nam,12/06/2004,887862158,22196
+22197@student.hcmus.edu.vn,Truong Gia,Khanh,22DTVT2,Dien Tu Vien Thon,Nam,11/01/2004,763591055,22197
+22198@student.hcmus.edu.vn,Dinh Thi,Hung,22DTVT2,Dien Tu Vien Thon,Nu,28/06/2004,809002656,22198
+22199@student.hcmus.edu.vn,Truong Quoc,Khanh,22DTVT2,Dien Tu Vien Thon,Nam,23/06/2004,383600061,22199
+22200@student.hcmus.edu.vn,Dang Ngoc,Nam,22DTVT3,Dien Tu Vien Thong,Nam,05/11/2004,137932819,22200
+22201@student.hcmus.edu.vn,Dinh Gia,Dung,22DTVT3,Dien Tu Vien Thong,Nu,11/11/2004,978143617,22201
+22202@student.hcmus.edu.vn,Hoang Xuan,Hung,22DTVT3,Dien Tu Vien Thong,Nu,21/02/2004,184432982,22202
+22203@student.hcmus.edu.vn,Truong Ngoc,Giang,22DTVT3,Dien Tu Vien Thong,Nam,09/06/2004,716468837,22203
+22204@student.hcmus.edu.vn,Ngo Tuan,Nam,22DTVT3,Dien Tu Vien Thong,Nam,16/05/2004,248817347,22204
+22205@student.hcmus.edu.vn,Tran Xuan,Hai,22DTVT3,Dien Tu Vien Thong,Nam,15/10/2004,600219269,22205
+22206@student.hcmus.edu.vn,Hoang Van,Binh,22DTVT3,Dien Tu Vien Thong,Nam,06/05/2004,222404729,22206
+22207@student.hcmus.edu.vn,Ho Quoc,Linh,22DTVT3,Dien Tu Vien Thong,Nu,17/02/2004,796106125,22207
+22208@student.hcmus.edu.vn,Le Thi,Hai,22DTVT3,Dien Tu Vien Thong,Nu,03/09/2004,151672783,22208
+22209@student.hcmus.edu.vn,Nguyen Xuan,Nhi,22DTVT3,Dien Tu Vien Thong,Nu,27/03/2004,931716180,22209
+22210@student.hcmus.edu.vn,Ho Thi,Nam,22DTVT3,Dien Tu Vien Thong,Nam,24/12/2004,534525798,22210
+22211@student.hcmus.edu.vn,Ho Quoc,Huong,22DTVT3,Dien Tu Vien Thong,Nam,18/03/2004,765662147,22211
+22212@student.hcmus.edu.vn,Dinh Tuan,Phuong,22DTVT3,Dien Tu Vien Thong,Nu,14/03/2004,239002858,22212
+22213@student.hcmus.edu.vn,Tran Van,Chi,22DTVT3,Dien Tu Vien Thong,Nam,01/06/2004,790284386,22213
+22214@student.hcmus.edu.vn,Pham Quoc,Bao,22DTVT3,Dien Tu Vien Thong,Nam,23/08/2004,213356791,22214
+22215@student.hcmus.edu.vn,Pham Gia,Quynh,22DTVT3,Dien Tu Vien Thong,Nu,23/05/2004,858752592,22215
+22216@student.hcmus.edu.vn,Le Quoc,Phuong,22DTVT3,Dien Tu Vien Thong,Nam,02/08/2004,306165516,22216
+22217@student.hcmus.edu.vn,Le Xuan,Cong,22DTVT3,Dien Tu Vien Thong,Nu,05/12/2004,381006208,22217
+22218@student.hcmus.edu.vn,Phan Tuan,Phuong,22DTVT3,Dien Tu Vien Thong,Nam,05/06/2004,542964966,22218
+22219@student.hcmus.edu.vn,Pham Thi,Chi,22DTVT3,Dien Tu Vien Thong,Nu,04/09/2004,825039494,22219
+22220@student.hcmus.edu.vn,Ngo Ngoc,Duong,22DC,Dia Chat,Nu,01/06/2004,437291815,22220
+22221@student.hcmus.edu.vn,Phan Van,Nam,22DC,Dia Chat,Nu,10/05/2004,999872878,22221
+22222@student.hcmus.edu.vn,Le Thi,Chi,22DC,Dia Chat,Nu,24/09/2004,515310434,22222
+22223@student.hcmus.edu.vn,Phan Quoc,Oanh,22DC,Dia Chat,Nu,18/10/2004,283320349,22223
+22224@student.hcmus.edu.vn,Dang Quoc,Hung,22DC,Dia Chat,Nam,14/03/2004,186572464,22224
+22225@student.hcmus.edu.vn,Ho Xuan,Quynh,22DC,Dia Chat,Nam,12/01/2004,529789162,22225
+22226@student.hcmus.edu.vn,Truong Xuan,Khanh,22DC,Dia Chat,Nu,04/02/2004,877097433,22226
+22227@student.hcmus.edu.vn,Le Van,Quoc,22DC,Dia Chat,Nam,22/02/2004,866225173,22227
+22228@student.hcmus.edu.vn,Pham Quoc,Dung,22DC,Dia Chat,Nu,07/11/2004,340445584,22228
+22229@student.hcmus.edu.vn,Ho Ngoc,Quynh,22DC,Dia Chat,Nam,28/07/2004,707345071,22229
+22230@student.hcmus.edu.vn,Nguyen Tuan,Nhi,22DC,Dia Chat,Nam,12/12/2004,531185682,22230
+22231@student.hcmus.edu.vn,Ngo Gia,Hung,22DC,Dia Chat,Nam,27/04/2004,726248910,22231
+22232@student.hcmus.edu.vn,Ngo Ngoc,Cong,22DC,Dia Chat,Nam,09/08/2004,906166919,22232
+22233@student.hcmus.edu.vn,Ho Thi,Giang,22DC,Dia Chat,Nu,01/05/2004,558413489,22233
+22234@student.hcmus.edu.vn,Le Tuan,Duc,22DC,Dia Chat,Nam,13/09/2004,185649812,22234
+22235@student.hcmus.edu.vn,Truong Van,Xuan,22DC,Dia Chat,Nam,24/06/2004,525740089,22235
+22236@student.hcmus.edu.vn,Le Van,Giang,22DC,Dia Chat,Nu,04/08/2004,548170694,22236
+22237@student.hcmus.edu.vn,Le Gia,Duc,22DC,Dia Chat,Nam,06/10/2004,323292813,22237
+22238@student.hcmus.edu.vn,Pham Van,Oanh,22DC,Dia Chat,Nam,18/04/2004,133400151,22238
+22239@student.hcmus.edu.vn,Ho Quoc,Hung,22DC,Dia Chat,Nu,09/02/2004,650051646,22239
+22240@student.hcmus.edu.vn,Truong Gia,Cuong,22DVL,Vat Ly,Nu,13/01/2004,133833166,22240
+22241@student.hcmus.edu.vn,Dinh Xuan,Huong,22DVL,Vat Ly,Nu,09/12/2004,260916263,22241
+22242@student.hcmus.edu.vn,Hoang Tuan,Cong,22DVL,Vat Ly,Nu,18/02/2004,972946963,22242
+22243@student.hcmus.edu.vn,Le Ngoc,Minh,22DVL,Vat Ly,Nam,04/12/2004,858861284,22243
+22244@student.hcmus.edu.vn,Phan Ngoc,Duc,22DVL,Vat Ly,Nam,11/03/2004,187603588,22244
+22245@student.hcmus.edu.vn,Hoang Quoc,Dung,22DVL,Vat Ly,Nam,04/08/2004,359297564,22245
+22246@student.hcmus.edu.vn,Nguyen Thi,Danh,22DVL,Vat Ly,Nu,14/08/2004,882542957,22246
+22247@student.hcmus.edu.vn,Ngo Quoc,Hai,22DVL,Vat Ly,Nam,20/03/2004,385668493,22247
+22248@student.hcmus.edu.vn,Hoang Xuan,Dat,22DVL,Vat Ly,Nu,05/11/2004,439257058,22248
+22249@student.hcmus.edu.vn,Ngo Quoc,Linh,22DVL,Vat Ly,Nam,09/11/2004,889874050,22249
+22250@student.hcmus.edu.vn,Tran Tuan,Anh,22DVL,Vat Ly,Nam,19/11/2004,173449533,22250
+22251@student.hcmus.edu.vn,Truong Thi,Duong,22DVL,Vat Ly,Nu,07/12/2004,109329552,22251
+22252@student.hcmus.edu.vn,Dang Tuan,Bao,22DVL,Vat Ly,Nu,27/07/2004,156271782,22252
+22253@student.hcmus.edu.vn,Nguyen Gia,Khanh,22DVL,Vat Ly,Nam,28/06/2004,268729258,22253
+22254@student.hcmus.edu.vn,Le Thi,Bao,22DVL,Vat Ly,Nu,06/02/2004,569278742,22254
+22255@student.hcmus.edu.vn,Ngo Quoc,Anh,22DVL,Vat Ly,Nu,10/07/2004,138300547,22255
+22256@student.hcmus.edu.vn,Truong Xuan,Oanh,22DVL,Vat Ly,Nu,10/12/2004,464653258,22256
+22257@student.hcmus.edu.vn,Truong Tuan,Minh,22DVL,Vat Ly,Nu,25/03/2004,272146051,22257
+22258@student.hcmus.edu.vn,Hoang Xuan,Hung,22DVL,Vat Ly,Nu,12/02/2004,668127666,22258
+22259@student.hcmus.edu.vn,Dinh Tuan,Linh,22DVL,Vat Ly,Nu,11/04/2004,463226328,22259
+22260@student.hcmus.edu.vn,Tran Gia,Quoc,22VLCLC,Vat Ly,Nam,04/10/2004,134838405,22260
+22261@student.hcmus.edu.vn,Dinh Van,Linh,22VLCLC,Vat Ly,Nam,08/02/2004,504447947,22261
+22262@student.hcmus.edu.vn,Truong Tuan,Minh,22VLCLC,Vat Ly,Nam,23/12/2004,222119582,22262
+22263@student.hcmus.edu.vn,Hoang Thi,Nhi,22VLCLC,Vat Ly,Nu,20/05/2004,715124397,22263
+22264@student.hcmus.edu.vn,Nguyen Gia,Oanh,22VLCLC,Vat Ly,Nam,27/02/2004,513260919,22264
+22265@student.hcmus.edu.vn,Ho Gia,Hung,22VLCLC,Vat Ly,Nam,12/08/2004,459365180,22265
+22266@student.hcmus.edu.vn,Tran Ngoc,Dung,22VLCLC,Vat Ly,Nam,28/05/2004,878343141,22266
+22267@student.hcmus.edu.vn,Pham Gia,Cong,22VLCLC,Vat Ly,Nu,22/07/2004,868004175,22267
+22268@student.hcmus.edu.vn,Hoang Tuan,Xuan,22VLCLC,Vat Ly,Nam,15/09/2004,381420984,22268
+22269@student.hcmus.edu.vn,Ngo Gia,Dat,22VLCLC,Vat Ly,Nam,05/06/2004,472334867,22269
+22270@student.hcmus.edu.vn,Tran Gia,Danh,22VLCLC,Vat Ly,Nu,26/04/2004,781515629,22270
+22271@student.hcmus.edu.vn,Le Tuan,Anh,22VLCLC,Vat Ly,Nu,20/09/2004,212477798,22271
+22272@student.hcmus.edu.vn,Phan Xuan,Oanh,22VLCLC,Vat Ly,Nam,28/02/2004,506386175,22272
+22273@student.hcmus.edu.vn,Phan Thi,An,22VLCLC,Vat Ly,Nu,08/01/2004,448956048,22273
+22274@student.hcmus.edu.vn,Dinh Xuan,Hung,22VLCLC,Vat Ly,Nam,06/10/2004,337533704,22274
+22275@student.hcmus.edu.vn,Truong Quoc,Nhi,22VLCLC,Vat Ly,Nu,08/05/2004,319095532,22275
+22276@student.hcmus.edu.vn,Dinh Xuan,Anh,22VLCLC,Vat Ly,Nu,03/06/2004,268856061,22276
+22277@student.hcmus.edu.vn,Truong Thi,Nhi,22VLCLC,Vat Ly,Nu,14/02/2004,939558100,22277
+22278@student.hcmus.edu.vn,Dinh Thi,Binh,22VLCLC,Vat Ly,Nu,09/05/2004,819798211,22278
+22279@student.hcmus.edu.vn,Nguyen Van,Nhi,22VLCLC,Vat Ly,Nu,08/09/2004,698600852,22279
+22280@student.hcmus.edu.vn,Pham Ngoc,An,22HH1,Hoa Hoc,Nam,13/11/2004,105449193,22280
+22281@student.hcmus.edu.vn,Truong Thi,Quoc,22HH1,Hoa Hoc,Nam,05/01/2004,700051650,22281
+22282@student.hcmus.edu.vn,Hoang Van,Huong,22HH1,Hoa Hoc,Nu,06/03/2004,113274041,22282
+22283@student.hcmus.edu.vn,Dang Xuan,Duong,22HH1,Hoa Hoc,Nam,05/09/2004,782478868,22283
+22284@student.hcmus.edu.vn,Pham Tuan,Dung,22HH1,Hoa Hoc,Nam,24/08/2004,163200419,22284
+22285@student.hcmus.edu.vn,Le Van,An,22HH1,Hoa Hoc,Nu,20/07/2004,533211031,22285
+22286@student.hcmus.edu.vn,Ho Tuan,Binh,22HH1,Hoa Hoc,Nu,13/01/2004,271599044,22286
+22287@student.hcmus.edu.vn,Hoang Xuan,Chi,22HH1,Hoa Hoc,Nam,21/07/2004,411485405,22287
+22288@student.hcmus.edu.vn,Nguyen Quoc,Cong,22HH1,Hoa Hoc,Nu,22/07/2004,375919939,22288
+22289@student.hcmus.edu.vn,Le Tuan,An,22HH1,Hoa Hoc,Nu,14/04/2004,518716082,22289
+22290@student.hcmus.edu.vn,Phan Thi,Oanh,22HH1,Hoa Hoc,Nam,23/03/2004,969937837,22290
+22291@student.hcmus.edu.vn,Dang Thi,Xuan,22HH1,Hoa Hoc,Nu,04/07/2004,549990959,22291
+22292@student.hcmus.edu.vn,Truong Tuan,Nhi,22HH1,Hoa Hoc,Nam,22/05/2004,583774086,22292
+22293@student.hcmus.edu.vn,Tran Thi,Quoc,22HH1,Hoa Hoc,Nu,14/12/2004,668318372,22293
+22294@student.hcmus.edu.vn,Le Gia,An,22HH1,Hoa Hoc,Nu,11/03/2004,708138399,22294
+22295@student.hcmus.edu.vn,Pham Xuan,Quoc,22HH1,Hoa Hoc,Nu,02/08/2004,158766641,22295
+22296@student.hcmus.edu.vn,Pham Ngoc,Linh,22HH1,Hoa Hoc,Nam,27/04/2004,125819213,22296
+22297@student.hcmus.edu.vn,Dinh Thi,Hung,22HH1,Hoa Hoc,Nam,24/04/2004,784700632,22297
+22298@student.hcmus.edu.vn,Nguyen Tuan,Phuong,22HH1,Hoa Hoc,Nu,26/05/2004,848187592,22298
+22299@student.hcmus.edu.vn,Dinh Xuan,Duc,22HH1,Hoa Hoc,Nu,21/01/2004,195496088,22299
+22300@student.hcmus.edu.vn,Dinh Tuan,Quynh,22HH2,Hoa Hoc,Nam,14/01/2004,574537457,22300
+22301@student.hcmus.edu.vn,Ho Xuan,Phuong,22HH2,Hoa Hoc,Nam,25/08/2004,144929150,22301
+22302@student.hcmus.edu.vn,Nguyen Van,Linh,22HH2,Hoa Hoc,Nam,24/09/2004,992458143,22302
+22303@student.hcmus.edu.vn,Ho Gia,Dat,22HH2,Hoa Hoc,Nam,18/08/2004,869858637,22303
+22304@student.hcmus.edu.vn,Truong Gia,Hai,22HH2,Hoa Hoc,Nam,25/08/2004,171860044,22304
+22305@student.hcmus.edu.vn,Truong Thi,Danh,22HH2,Hoa Hoc,Nam,04/11/2004,678773043,22305
+22306@student.hcmus.edu.vn,Truong Thi,Quynh,22HH2,Hoa Hoc,Nu,07/09/2004,535066338,22306
+22307@student.hcmus.edu.vn,Ngo Thi,Chi,22HH2,Hoa Hoc,Nam,14/03/2004,876709851,22307
+22308@student.hcmus.edu.vn,Hoang Gia,Khanh,22HH2,Hoa Hoc,Nu,18/03/2004,786678627,22308
+22309@student.hcmus.edu.vn,Nguyen Quoc,Hung,22HH2,Hoa Hoc,Nam,28/09/2004,894146203,22309
+22310@student.hcmus.edu.vn,Phan Xuan,Xuan,22HH2,Hoa Hoc,Nu,08/01/2004,861547611,22310
+22311@student.hcmus.edu.vn,Tran Thi,Phuong,22HH2,Hoa Hoc,Nam,07/04/2004,715602228,22311
+22312@student.hcmus.edu.vn,Dinh Tuan,Quynh,22HH2,Hoa Hoc,Nu,12/06/2004,780881280,22312
+22313@student.hcmus.edu.vn,Phan Thi,Oanh,22HH2,Hoa Hoc,Nam,17/11/2004,133998827,22313
+22314@student.hcmus.edu.vn,Ngo Quoc,Cong,22HH2,Hoa Hoc,Nam,14/01/2004,622733778,22314
+22315@student.hcmus.edu.vn,Ngo Thi,Binh,22HH2,Hoa Hoc,Nam,02/01/2004,445418575,22315
+22316@student.hcmus.edu.vn,Hoang Thi,Phuong,22HH2,Hoa Hoc,Nam,26/11/2004,347399778,22316
+22317@student.hcmus.edu.vn,Ho Ngoc,Minh,22HH2,Hoa Hoc,Nu,24/01/2004,125146213,22317
+22318@student.hcmus.edu.vn,Dang Thi,Huong,22HH2,Hoa Hoc,Nam,25/01/2004,700341939,22318
+22319@student.hcmus.edu.vn,Ho Quoc,Giang,22HH2,Hoa Hoc,Nam,28/07/2004,423467279,22319
+22320@student.hcmus.edu.vn,Pham Thi,Oanh,Cong Nghe Thong Tin,Nam,16/11/2004,512224321,22320
