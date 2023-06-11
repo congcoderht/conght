@@ -1,5 +1,5 @@
 #include"Header.h"
-int demHocsinh()
+int CountStudent()
 {
 	int dem = 0;
 	ifstream f;
@@ -17,7 +17,7 @@ int demHocsinh()
 	f.close();
 	return dem - 1;
 }
-int demgiaovien()
+int CountTeacher()
 {
 	int dem = 0;
 	ifstream f;
@@ -35,10 +35,10 @@ int demgiaovien()
 	f.close();
 	return dem - 1;
 }
-void Docfilehs(hocsinh*& S, int& n)
+void ReadStudent(hocsinh*& S, int& n)
 {
 	ifstream f;
-	S = new hocsinh[demHocsinh()];
+	S = new hocsinh[CountStudent()];
 	f.open("Text.csv");
 	if (!f.is_open())
 	{
@@ -47,12 +47,14 @@ void Docfilehs(hocsinh*& S, int& n)
 	}
 	int i = 0;
 	string line;
-	getline(f, line);
-	while (f)
+	getline(f, line);//Doc dong dau vao bien tam
+	while (!f.eof())
 	{
 		getline(f, S[i].ID, ',');
 		getline(f, S[i].ho, ',');
 		getline(f, S[i].ten, ',');
+		getline(f, S[i].Lop, ',');
+		getline(f, S[i].Khoa, ',');
 		getline(f, S[i].gioitinh, ',');
 		getline(f, S[i].ngaysinh, ',');
 		getline(f, S[i].IdXaHoi, ',');
@@ -62,10 +64,10 @@ void Docfilehs(hocsinh*& S, int& n)
 	f.close();
 	n = i - 1;
 }
-void Docfilegv(Giaovien*& T, int& m)
+void ReadTeacher(Giaovien*& T, int& m)
 {
 	ifstream f;
-	T = new Giaovien[demgiaovien()];
+	T = new Giaovien[CountTeacher()];
 	f.open("Giaovien.csv");
 	if (!f.is_open())
 	{
@@ -75,7 +77,7 @@ void Docfilegv(Giaovien*& T, int& m)
 	int i = 0;
 	string l;
 	getline(f, l);
-	while (f)
+	while (!f.eof())
 	{
 		getline(f, T[i].id, ',');
 		getline(f, T[i].ho, ',');
@@ -89,30 +91,41 @@ void Docfilegv(Giaovien*& T, int& m)
 	f.close();
 	m = i - 1;
 }
-void xuat1hs(hocsinh S)
+void Printf1Student(hocsinh S)
 {
 	cout << "ID " << S.ID << endl;
 	cout << "Ho ten " << S.ho << " " << S.ten << endl;
+	cout << "Lop " << S.Lop << endl;
+	cout << "Khoa " << S.Khoa << endl;
 	cout << "Gioi tinh " << S.gioitinh << endl;
 	cout << "Ngay sinh " << S.ngaysinh << endl;
 	cout << "IDXH " << S.IdXaHoi << endl;
 	cout << "Mat khau " << S.matkhau << endl;
 }
-void xuatHS(hocsinh* S, int n)
+void PrintfStudent(hocsinh* S, int n)
 {
 	for (int i = 0;i < n; i++)
 	{
-		cout << "Hoc Sinh " << i + 1 << " ID " << S[i].ID << " Ho ten " << S[i].ho << " " << S[i].ten << " Gioi tinh " << S[i].gioitinh << " Ngay sinh " << S[i].ngaysinh << " IDXH " << S[i].IdXaHoi << " Mat khau " << S[i].matkhau << endl;
+		cout << "Hoc Sinh " << i + 1 << " ID " << S[i].ID << " Ho ten " << S[i].ho << " " << S[i].ten << "Lop " << S[i].Lop << " Khoa " << S[i].Khoa << " Gioi tinh " << S[i].gioitinh << " Ngay sinh " << S[i].ngaysinh << " IDXH " << S[i].IdXaHoi << " Mat khau " << S[i].matkhau << endl;
 	}
 }
-void xuatGV(Giaovien* T, int m)
+void Printf1Teacher(Giaovien T, int m)
 {
-	for (int i = 0;i < m;i++)
+	cout << "ID " << T.id << endl;
+	cout << "Ho ten " << T.ho << " " << T.ten << endl;
+	cout << "Gioi tinh " << T.gioitinh << endl;
+	cout << "Ngay sinh " << T.ngaysinh << endl;
+	cout << "IDXH " << T.IDXH << endl;
+	cout << "Mat khau " << T.matkhau << endl;
+}
+void PrintfTeacher(Giaovien* T, int m)
+{
+	for (int i = 0;i < m; i++)
 	{
-		cout << "Giao vien " << i + 1 << " ID " << T[i].id << " HO ten " << T[i].ho << " " << T[i].ten << " Gioi Tinh " << T[i].gioitinh << " Ngay sinh " << T[i].ngaysinh << " ID xahoi " << T[i].IDXH << " Mat khau " << T[i].matkhau << endl;
+		cout << "Giao Vien " << i + 1 << " ID " << T[i].id << " Ho ten " << T[i].ho << " " << T[i].ten << " Gioi tinh " << T[i].gioitinh << " Ngay sinh " << T[i].ngaysinh << " IDXH " << T[i].IDXH << " Mat khau " << T[i].matkhau << endl;
 	}
 }
-bool checkPassIDhs(hocsinh* S, string id, string pass, int n, int& index)
+bool CheckPassIDStudent(hocsinh* S, string id, string pass, int n, int& index)
 {
 	for (int i = 0;i < n;i++)
 	{
@@ -124,14 +137,31 @@ bool checkPassIDhs(hocsinh* S, string id, string pass, int n, int& index)
 	}
 	return false;
 }
+bool CheckPassIDTeacher(Giaovien* T, string id, string pass, int m, int& index2)
+{
+	for (int i = 0;i < m;i++)
+	{
+		if (id == T[i].id && pass == T[i].matkhau)
+		{
+			index2 = i;
+			return true;
+		}
+	}
+	return false;
+}
 void login(string& id, string& pass)
 {
-	cout << "Nhap id:";
+	cout << "==================================================================\n";
+	cout << "|<<<<<<<<<<<<<<<<   LEARNING MANAGEMENT SYSTEM   >>>>>>>>>>>>>>>>|\n";
+	cout << "|----------------------------------------------------------------|\n";
+	cout << "|----------------      [login your account]      ----------------|\n\n";
+	cout << "_________________________________________________________________\n";
+	cout << "|[ID]: ";
 	getline(cin, id);
-	cout << "Nhap mat khau:";
+	cout << "|[Password]: ";
 	getline(cin, pass);
 }
-void MenuHS(hocsinh* S, int& index, int n, string id)
+void MenuStudent(hocsinh* S, int& index, int n, string id)
 {
 	int k = 0;
 	do {
@@ -145,14 +175,14 @@ void MenuHS(hocsinh* S, int& index, int n, string id)
 		cout << "Nhap lua chon: ";cin >> k;
 		if (k == 1)
 		{
-			xuat1hs(S[index]);
+			Printf1Student(S[index]);
 			system("pause");
 		}
 		if (k == 2)
 		{
 			cout << "Doi mat khau" << endl;
-			changepasshs(S, n, id);
-			capnhatfilehs(S, n);
+			ChangepassStudent(S, n, id);
+			UpdatefileStudent(S, n);
 			system("pause");
 		}
 		if (k == 0)
@@ -165,7 +195,8 @@ void MenuHS(hocsinh* S, int& index, int n, string id)
 		}
 	} while (k != 0);
 }
-void changepasshs(hocsinh*& S, int n, string id)
+
+void ChangepassStudent(hocsinh*& S, int n, string id)
 {
 	string temp;
 	cout << "Nhap mat khau cu:";
@@ -190,7 +221,7 @@ void changepasshs(hocsinh*& S, int n, string id)
 	}
 
 }
-void capnhatfilehs(hocsinh*& S, int n)
+void UpdatefileStudent(hocsinh*& S, int n)
 {
 	fstream f1;
 	f1.open("Text.csv");
@@ -208,19 +239,10 @@ void capnhatfilehs(hocsinh*& S, int n)
 	}
 	f1.close();
 }
-void taonamhoc(int& newyear)
+void CreateNewStudyYear(namhoc& newyear)
 {
-	cout << "Ban nhap nam hoc can tao: ";cin >> newyear;
-	cout << "Ban da tao nam hoc moi " << newyear << "-" << newyear + 1 << endl;
-	fstream f;
-	f.open("Namhocmoi.csv", ios::out | ios::trunc);
-	if (!f.is_open())
-		cout << "mo file that bai" << endl;
-	else
-	{
-		f << "Nam hoc " << newyear << "-" << newyear + 1 << endl;
-		f << "\"Day la nam hoc moi nen o day se chua thong tin cua sinh vien nam nhat\"" << endl;
-	}
-	f.close();
+	cout << "Nhap nam hoc ban tao moi: ";cin >> newyear.Nienkhoa;
+	newyear.khoa = NULL;
+	newyear.lop = NULL;
+	cout << "Ban da tao thanh cong nam hoc " << newyear.Nienkhoa << " - " << newyear.Nienkhoa + 1 << endl;
 }
-
