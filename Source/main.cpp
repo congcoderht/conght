@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-	int n = 0;int m = 0;
+	int n = 0;int m = 0;int c = 0;int k = 0;
 	int index = -1;
 	int year = 0;
 	namhoc newyear;
@@ -14,6 +14,10 @@ int main()
 	ReadTeacher(T, m);
 	/*PrintfStudent(S, n);
 	PrintfTeacher(T, m);*/
+	cout << CountCourse() << endl;
+	system("pause");
+	CreateClass(C, c);
+	AddStuToClass(C, S, c, n);
 	system("pause");
 	//xuatGV(T, m);
 	do {
@@ -24,18 +28,15 @@ int main()
 		{
 			cout << "           Dang nhap thanh cong" << endl;
 			cout << " --------------------------------------" << endl;
-			MenuStudent(S, index, n, id);
+
+			MenuStudent(S, C, index, n, c, id);
 		}
 		else
 		{
 			index = -1;
-			cout << "dang nhap sai" << endl;
+			cout << "Dang nhap sai,nhap lai!" << endl;
 		}
 	} while (index == -1);
 
-	//	cout << "Doi mat khau" << endl;
-		//changepasshs(S, n, id);
-		//capnhatfilehs(S, n);
-		//taonamhoc(year);
 	return 0;
 }
