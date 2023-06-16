@@ -1,0 +1,24 @@
+ID Khoa Hoc,Ten Khoa,Ten Lop,Ten Giao Vien,Thu,Thoi Gian,Ngay bat dau,Ngay ket thuc,So tin chi,So luong
+AVBT1,Anh Van Bo Tuc,22A1,Do Quynh Tram,MON,S1,1/10,31/5,3,40
+AVBT2,Anh Van Bo Tuc,22A2,Tran Thu Thuy,TUE,S2,1/10,31/5,3,40
+AV1,Anh Van 1,22S1,Nguyen Thuy Hien,WED,S3,1/10,31/5,3,40
+AV2,Anh Van 2,22S2,Do Quynh Tram,FRI,S1,1/10,31/5,3,40
+AV3,Anh Van 3,22S3,Dang Thu Ha,SAT,S1,1/10,31/5,3,40
+AV4,Anh Van 4,22S4,Nguyen Thuy Nhi,FRI,S3,1/10,31/5,3,40
+TDBD1,The Duc 1,22THBD1,Ho Manh Quan,MON,S2,1/10,30/4,2,80
+TDBR1,The Duc 1,22THBR1,Tran Ai Quoc,TUE,S4,1/10,30/4,2,80
+TDBR2,The Duc 2,22THBR2,Tran Ai Quoc,THU,S1,1/10,30/4,2,80
+TDBD2,The Duc 2,22THBD2,Ho Manh Quan,FRI,S3,1/10,30/4,2,80
+NMCNTT1,Nhap Mon CNTT,22CS1,Phan Trong Nghia,TUE,S3,1/10,31/5,4,70
+NMCNTT2,Nhap Mon CNTT,22CS2,Tran Van Nghia,WED,S3,1/10,31/5,4,70
+NMLT1,Nhap Mon Lap Trinh,22CC1,Ho Quang Sang,THU,S3,1/10,31/5,4,70
+NMLT2,Nhap Mon Lap Trinh,22CC2,Nguyen Nhat Tan,TUE,S3,1/10,31/5,4,70
+TRR1,Toan Roi Rac,22TRR1,Tran Duy Son,WED,S3,1/10,31/5,3,100
+TRR2,Toan Roi Rac,22TRR2,Tran Duy Son,THU,S1,1/10,31/5,3,100
+VTP001,Vi Tich Phan 1B,22VTP001,Bui Mai Phuong,SAT,S1,1/10,31/5,3,160
+VTP002,Vi Tich Phan 1B,22VTP002,Bui Mai Phuong,WED,S3,1/10,31/5,3,160
+PLDC,Phap Luat Dai Cuong,22PLDC,Tran Dieu Huyen,FRI,S4,1/10,30/5,2,40
+KTDC,Kinh Te Dai Cuong,22KTDC,Tran Dieu Huyen,SAT,S2,1/10,30/4,2,50
+SH001,Sinh Hoc,22SH,Nguyen Thi Ngoc,WED,S3,1/10,30/4,2,40
+VL001,Vat Ly 1,22VLDC,Truong Quoc Cong,SAT,S1,1/10,31/5,3,40
+HH001,Hoa Hoc 1,22HHDC,Phan Minh Gia Bao,WED,S3,1/10,30/4,2,40
